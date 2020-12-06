@@ -40,10 +40,6 @@ Variables
 	--color-link: #1E9FD3;
   }
 }
-/* -----------------------------------
-Fonts TODO
--------------------------------------- */
-
 
 /* -----------------------------------
 Layout
@@ -229,12 +225,9 @@ main>header h1, article>header h1 {
 	margin-left: auto;
 }
 
-
-
 /* -----------------------------------
 Article Elements
 -------------------------------------- */
-
 
 article {
   margin-bottom: var(--spacing-l);
@@ -249,6 +242,11 @@ article>header h1 {
   font-family: var(--font-sans);
   margin: 0 0 var(--spacing-xs);
   line-height:1.25;
+}
+
+.read-more a {
+  color: var(--color-link);
+  font-weight: bold;
 }
 
 /* -----------------------------------
@@ -313,4 +311,37 @@ video {
 	margin-bottom: var(--spacing-l);
 	margin-left: auto;
 	margin-right: auto;
+}
+
+
+/* -----------------------------------
+Archive
+-------------------------------------- */
+
+section.archive {
+  width: 100%;
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: var(--spacing-xl);
+}
+
+section.archive ul {
+  list-style: none;
+  padding: 0;
+}
+
+section.archive li {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: calc(0.25 * var(--spacing-s));
+  -webkit-font-smoothing: antialiased;
+}
+
+section.archive li time { order: 1; width: 5em; }
+section.archive li a {
+  display: inline-block;
+  order: 2;
+  width: calc(100% - 7em);
+  border: none;
+  font-family: var(--font-sans);
 }
