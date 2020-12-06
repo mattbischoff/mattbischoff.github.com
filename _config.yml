@@ -8,31 +8,21 @@ collections:
   uploads:
     title: Uploads
     output: true
-  category:
-    title: Categories
-    output: true 
 defaults:
-  -
-    scope:
-      path: ''
-      type: posts
-      values:
-      layout: post
-      image: 
-      description: ''
-      format: post
-      color: 
-      link: 
-  -
-    scope:
-      path: ''
-      type: category
-    values:
-      layout: "category"
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    image: 
+    description: ''
+    format: post
+    color: 
+    link: 
 description: I write about technology & culture here and make apps at Lickability.
 permalink: "/:title/"
 url: https://matthewbischoff.com
-paginate: 10
+paginate: 5
 baseurl: 
 author:
   name: Matthew Bischoff
@@ -61,20 +51,30 @@ sass:
   sass_dir: _sass
   style: compressed
 repository: mattbischoff/matthewbischoff.com
+include:
+- _category
 text_content:
   header_title: Matthew Bischoff
-  subtitle: I write about <a href="/category/tech">technology</a> & <a href="/category/culture">culture</a> here and make apps at <a href="https://lickability.com">Lickability</a>.
+  subtitle: I write about technology & culture here and make apps at <a href="https://lickability.com">Lickability</a>.
 navigation_links:
 - title: Home
   url: "/"
 - title: About
-  url: "/about/"
+  url: "/about"
 - title: Now
-  url: "/now/"
+  url: "/now"
 - title: Then
-  url: "/archive/"
+  url: "/archive"
 - title: Contact
-  url: "/contact/"
+  url: "/contact"
 - title: RSS
-  url: "/feed/"
+  url: "/feed"
+category_names:
+- shorter
+- longer
+- tech
+- culture
+- talks
+- feelings
+- management
 accent_color: "#1E9FD3"
