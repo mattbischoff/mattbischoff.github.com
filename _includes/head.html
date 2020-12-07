@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="{{ "/assets/css/screen.css" | relative_url }}">
   
   <!--  Fonts -->  
-  <link rel="stylesheet" href="https://use.typekit.net/ktb0bft.css">
+  <link rel="stylesheet" rel="preload" href="https://use.typekit.net/ktb0bft.css">
 
   <!--  Icons -->  
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -38,13 +38,11 @@
   <!-- RSS -->
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed/">
   
-  <!-- Load twitter utilities to dynamically render embedded tweets -->
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
   <!-- Meta -->
   <meta name="author" content="{{ site.author.name }}">
-  <meta name="description" content="{{ site.description | strip_html}}">
+  <meta name="description" content="{{ site.description }}">
   <meta name="generator" content="Jekyll">
+  <meta name="theme-color" content="{{ site.accent_color }}">
 
   <!-- Google -->
   <meta name="googlebot" content="index,follow">
