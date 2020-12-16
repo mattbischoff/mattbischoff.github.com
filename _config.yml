@@ -22,6 +22,9 @@ defaults:
     format: post
     color: 
     link: 
+    audio:
+      title: 
+      link: 
 - scope:
     path: ''
     type: category
