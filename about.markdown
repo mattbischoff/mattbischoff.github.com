@@ -21,8 +21,6 @@ In their spare time, Matt enjoys making (and drinking) classic cocktails, going 
 
 ### Apps
 
-Matt’s contributed design and code to the following applications:
-
 - [Quotebook](http://quotebookapp.com)
 - [Accelerator](http://acceleratorapp.com)
 - [Pinpoint](https://lickability.com/pinpoint)
@@ -38,15 +36,7 @@ Matt’s contributed design and code to the following applications:
 
 ### Talks
 
-- [Growing Pains](https://matthewbischoff.com/nsnorth/) — [NSNorth](https://nsnorth.ca) 2019
-- [Culture Rot](https://matthewbischoff.com/culture-rot/) — [Difficult to Name Reading Series](http://www.ryansartor.com) March 2018
-- [Making Meetup](https://speakerdeck.com/matthewbischoff/making-meetup-6-dot-0) — [CocoaHeads NYC](http://www.cocoaheadsnyc.org)
-- [Barely Managing](https://matthewbischoff.com/barely-managing/) — [CocoaLove](https://cocoalove.org) October 2016
-- [Write Your Way Out](https://matthewbischoff.com/write-your-way-out/) — [Release Notes](https://2016.releasenotes.tv) September 2016
-- [Software Criticism](https://speakerdeck.com/matthewbischoff/software-criticism) — [iOSoho](http://www.meetup.com/iOSoho/events/145810582/) 2014
-- [Objective-C Sins](https://speakerdeck.com/matthewbischoff/objective-c-sins) — [Flatiron School](http://flatironschool.com) 2013
-- [RFTM: Things You Missed in the HIG](https://matthewbischoff.com/rtfm/) — [SecondConf](http://secondconf.com) September 2013
-- [Get Excited and Make Things](https://speakerdeck.com/matthewbischoff/get-excited-and-make-things) — [TEDxNJIT](https://www.youtube.com/watch?v=R1afhypdiBQ) November 2011
+{% include date-list.html content=site.data.talks %}
 
 ## Appearances
 
@@ -79,8 +69,8 @@ You can [contact Matt here](/contact) or find them online in all of these places
 
 ## Colophon
 
-This website is published with [Jekyll](https://jekyllrb.com) and managed in [Siteleaf](https://www.siteleaf.com). The content is hosted in a [GitHub repository](https://github.com/mattbischoff/matthewbischoff.com) on [GitHub Pages](https://pages.github.com). Posts are written in [Ulysses](https://ulysses.app).
+This website is published with [Jekyll](https://jekyllrb.com) and managed in [Siteleaf](https://www.siteleaf.com). It’s hosted on [GitHub](https://github.com/mattbischoff/matthewbischoff.com) and deployed via [GitHub Pages](https://pages.github.com). Posts are written in [Ulysses](https://ulysses.app).
 
-Headings are set in [FF Tisa Pro](https://fonts.adobe.com/fonts/skolar) by Mitja Miklavčič. Body type is set in [Proxima Nova](https://fonts.adobe.com/fonts/proxima-nova) by Mark Simonson, Matt’s favorite typeface.
+Display Type is set in [FF Tisa Pro](https://fonts.adobe.com/fonts/skolar) by Mitja Miklavčič. Body type is set in [Proxima Nova](https://fonts.adobe.com/fonts/proxima-nova) by Mark Simonson, Matt’s favorite typeface.
 
 Photos of Matt were taken by Ashe of [Rose Glass Photography](https://www.roseglass.pictures).
