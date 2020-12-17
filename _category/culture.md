@@ -1,6 +1,7 @@
 ---
 title: Culture
-permalink: "/category/culture"
-category: culture
+permalink: "/category/culture/"
+categories:
+- culture
 ---
 

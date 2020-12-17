@@ -1,6 +1,7 @@
 ---
 title: Talks
-permalink: "/category/talks"
-category: talks
+permalink: "/category/talks/"
+categories:
+- talks
 ---
 
