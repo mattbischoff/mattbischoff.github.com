@@ -52,11 +52,11 @@ Matt’s contributed design and code to the following applications:
 
 ### Podcasts
 
-{% include date-list.html data=site.data.podcasts %}
+{% include date-list.html content=site.data.podcasts %}
 
 ### Press
 
-{% include date-list.html data=site.data.press %}
+{% include date-list.html content=site.data.press %}
 
 ### Elsewhere
 
@@ -81,6 +81,6 @@ You can [contact Matt here](/contact) or find them online in all of these places
 
 This website is published with [Jekyll](https://jekyllrb.com) and managed in [Siteleaf](https://www.siteleaf.com). The content is hosted in a [GitHub repository](https://github.com/mattbischoff/matthewbischoff.com) on [GitHub Pages](https://pages.github.com). Posts are written in [Ulysses](https://ulysses.app).
 
-Headings are set in [Skolar](https://fonts.adobe.com/fonts/skolar) by David Březina. Body type is set in [Proxima Nova](https://fonts.adobe.com/fonts/proxima-nova) by Mark Simonson, Matt’s favorite typeface.
+Headings are set in [FF Tisa Pro](https://fonts.adobe.com/fonts/skolar) by Mitja Miklavčič. Body type is set in [Proxima Nova](https://fonts.adobe.com/fonts/proxima-nova) by Mark Simonson, Matt’s favorite typeface.
 
 Photos of Matt were taken by Ashe of [Rose Glass Photography](https://www.roseglass.pictures).
