@@ -5,7 +5,6 @@ categories:
 - tech
 - shorter
 - culture
-- '2020'
 tags:
 - software
 - apps

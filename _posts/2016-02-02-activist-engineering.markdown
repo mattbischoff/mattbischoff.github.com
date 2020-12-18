@@ -5,7 +5,6 @@ categories:
 - longer
 - tech
 - culture
-- '2016'
 tags:
 - activism
 - programming

@@ -5,7 +5,6 @@ categories:
 - culture
 - tech
 - shorter
-- '2020'
 tags:
 - podcast
 - reply all

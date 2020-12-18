@@ -5,7 +5,6 @@ categories:
 - tech
 - management
 - shorter
-- '2020'
 tags:
 - lickability
 - lawyers

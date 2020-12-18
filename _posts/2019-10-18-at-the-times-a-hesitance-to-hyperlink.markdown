@@ -5,7 +5,6 @@ categories:
 - tech
 - culture
 - shorter
-- '2019'
 tags:
 - nytimes
 - journalism

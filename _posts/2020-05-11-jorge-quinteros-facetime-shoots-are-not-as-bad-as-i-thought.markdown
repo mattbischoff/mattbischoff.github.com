@@ -4,7 +4,6 @@ date: 2020-05-11 15:19:00 -04:00
 categories:
 - culture
 - shorter
-- '2020'
 tags:
 - photography
 - coronavirus

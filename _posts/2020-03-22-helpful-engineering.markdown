@@ -5,7 +5,6 @@ categories:
 - tech
 - culture
 - shorter
-- '2020'
 tags:
 - coronavirus
 - engineering
